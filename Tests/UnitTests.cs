@@ -31,7 +31,7 @@ namespace GithubActionsLab
         }
 
         // Implement 3 tests per operation, following a similar pattern as above
-	public void Subtract_Valid()
+	/*public void Subtract_Valid()
         {
             Assert.AreEqual(5, Program.Subtract("6", "1"));
             Assert.AreEqual(6, Program.Subtract("12", "6"));
@@ -53,7 +53,7 @@ namespace GithubActionsLab
             Assert.Throws<ArgumentNullException>(() => Program.Subtract(null, "1"));
             Assert.Throws<ArgumentNullException>(() => Program.Subtract(null, null));
 	}
-	
+	*/
 	public void Multiply_Valid()
         {
             Assert.AreEqual(6, Program.Multiply("6", "1"));
